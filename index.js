@@ -1,6 +1,4 @@
 const figlet = require('figlet');
-const graphtea = require('graph-tea');
-
 
 function printTeaGraph() {
 	figlet('Tea Time!', function(err, data) {
@@ -13,8 +11,6 @@ function printTeaGraph() {
 	});
 
 }
-printTeaGraph()
-console.log(graphtea.printTea())
 
 module.exports = {
     printTeaGraph
